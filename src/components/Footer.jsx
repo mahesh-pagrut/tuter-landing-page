@@ -29,8 +29,7 @@ const Footer = () => {
           </div>
         </div>
 
-        
-      </div>
+              </div>
 
       {/* Bottom Footer */}
       <div className="py-4 text-center text-gray-400 text-sm">© 2021 - Eduflex. Designed by Templatecookie. All rights reserved.</div>
