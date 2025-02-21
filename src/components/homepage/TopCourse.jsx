@@ -27,7 +27,7 @@ const courses = [
 
 const TopCourses = () => {
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div className="container mx-auto px-4 py-10 bg-[#F5F7FA]">
       <h2 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold text-[#1D2026]">
         Best Selling Courses
       </h2>
