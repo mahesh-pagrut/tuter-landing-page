@@ -14,7 +14,26 @@ const Footer = () => {
         </div>
       </div>
 
-      
+      {/* Main Footer Section */}
+      <div className="border-b border-gray-700 py-10 px-4 md:px-10 grid grid-cols-1 md:grid-cols-4 gap-6">
+        {/* Logo and Socials */}
+        <div>
+          <img src={Logo} alt="E-tutor Logo" className="h-10" />
+          <p className="text-gray-400 mt-2">Aliquam rhoncus ligula est, non pulvinar elit convallis nec.</p>
+          <div className="flex gap-3 mt-3">
+            <Facebook className="w-5 h-5 text-gray-400 hover:text-white" />
+            <Instagram className="w-5 h-5 text-gray-400 hover:text-white" />
+            <Linkedin className="w-5 h-5 text-gray-400 hover:text-white" />
+            <Twitter className="w-5 h-5 text-gray-400 hover:text-white" />
+            <Youtube className="w-5 h-5 text-gray-400 hover:text-white" />
+          </div>
+        </div>
+
+        
+      </div>
+
+      {/* Bottom Footer */}
+      <div className="py-4 text-center text-gray-400 text-sm">© 2021 - Eduflex. Designed by Templatecookie. All rights reserved.</div>
     </footer>
   );
 };
