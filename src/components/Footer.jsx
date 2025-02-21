@@ -29,7 +29,19 @@ const Footer = () => {
           </div>
         </div>
 
-              </div>
+        {/* Top Categories */}
+        <div>
+          <h3 className="font-semibold">Top 4 Category</h3>
+          <ul className="text-gray-400 space-y-2 mt-2">
+            <li>Development</li>
+            <li>Finance & Accounting</li>
+            <li>Design</li>
+            <li>Business</li>
+          </ul>
+        </div>
+
+       
+      </div>
 
       {/* Bottom Footer */}
       <div className="py-4 text-center text-gray-400 text-sm">© 2021 - Eduflex. Designed by Templatecookie. All rights reserved.</div>
