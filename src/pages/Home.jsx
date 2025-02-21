@@ -33,13 +33,10 @@ export default function Home() {
 
         {/* brows top category */}
 
-        {/* <div className='px-36'>
+        <div className='px-36'>
         <BrowseCategories/>
         </div>
 
-        <div className='px-36'>
-        <TopCourses/>
-        </div> */}
     </div>
   )
 }
