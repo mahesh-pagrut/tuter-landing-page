@@ -36,7 +36,10 @@ export default function Home() {
         <div className='px-36'>
         <BrowseCategories/>
         </div>
-
+        
+        <div className='px-36'>
+        <TopCourses/>
+        </div> 
     </div>
   )
 }
