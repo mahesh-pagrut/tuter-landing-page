@@ -3,6 +3,9 @@ import HeaderImage from "../assets/coach-by-whiteboard.png";
 import BrowseCategories from "../components/homepage/Categories";
 import TopCourses from "../components/homepage/TopCourse";
 import FeaturedCourses from "../components/homepage/FeaturedCourses";
+import TrustedCompanies from "../components/homepage/TrustedCompanies";
+import TopInstructors from "../components/homepage/TopInstructors";
+import BecomeInstructor from "../components/homepage/becomeInstructor";
 
 export default function Home() {
   return (
@@ -45,6 +48,20 @@ export default function Home() {
       <div className="px-30 -mt-70 relative">
         <FeaturedCourses />
       </div>
+
+      <div className="px-30">
+        <BecomeInstructor/>
+      </div>
+
+      <div className="px-30">
+        <TopInstructors/>
+      </div>
+
+      <div className="px-36">
+      <TrustedCompanies/>
+      </div>
+
     </div>
+    
   );
 }

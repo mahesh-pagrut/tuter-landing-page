@@ -62,7 +62,7 @@ const courses = [
 
 const FeaturedCourses = () => {
   return (
-    <section className="px-10 py-10 bg-white">
+    <section className="px-10 py-10 bg-[#FFFFFF] border border-[#E9EAF0]">
       <h2 className="text-2xl font-bold mb-6">Our Feature Courses</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {courses.map((course) => (
