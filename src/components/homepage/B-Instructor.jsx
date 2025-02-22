@@ -5,7 +5,6 @@ import darrell from "/assets/instructors/darrell.png";
 import jane from "/assets/instructors/jane.png";
 import albert from "/assets/instructors/albert.png";
 import kathryn from "/assets/instructors/kathryn.png";
-import { Star } from "lucide-react";
 
 const instructors = [
   { id: 1, image: devon, name: "Devon Lane", title: "Senior Developer", rating: 4.6, students: "854 students" },
@@ -15,7 +14,7 @@ const instructors = [
   { id: 5, image: kathryn, name: "Kathryn Murphy", title: "Lead Developer", rating: 4.2, students: "2,711 students" },
 ];
 
-const BecomeInstructor = () => {
+const Become2Instructor = () => {
   return (
     <section className="bg-[#F5F7FA] px-8 py-12">
       <div className="max-w-7xl mx-auto">
@@ -44,4 +43,4 @@ const BecomeInstructor = () => {
   );
 };
 
-export default BecomeInstructor;
+export default Become2Instructor;
