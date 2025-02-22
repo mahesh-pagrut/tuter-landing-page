@@ -5,7 +5,7 @@ import TopCourses from "../components/homepage/TopCourse";
 import FeaturedCourses from "../components/homepage/FeaturedCourses";
 import TrustedCompanies from "../components/homepage/TrustedCompanies";
 import TopInstructors from "../components/homepage/TopInstructors";
-import BecomeInstructor from "../components/homepage/becomeInstructor";
+import BecomeInstructor from "../components/homepage/BecomeInstructor";
 import RecentCourses from "../components/homepage/RecentCourses";
 
 export default function Home() {
