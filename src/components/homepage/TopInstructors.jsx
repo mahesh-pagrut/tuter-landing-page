@@ -54,7 +54,6 @@ const instructors = [
 const TopInstructors = () => {
   return (
     <section className="bg-[#FFFFFF] border border-[#E9EAF0] px-8 py-4">
-    <div className="bg-[#FFFFFF] border border-[#E9EAF0] px-8 py-4">
 
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-2xl font-bold mb-8">Top instructor of the month</h2>
@@ -63,7 +62,7 @@ const TopInstructors = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 ">
           {instructors.map((instructor) => (
             <div key={instructor.id} className="bg-white overflow-hidden text-center border border-[#E9EAF0]">
-              <img src={instructor.image} alt={instructor.name} className="w-full h-44 object-cover" />
+              <img src={instructor.image} alt={instructor.name} className="w-full h-58 object-cover" />
               <div className="p-2">
                 <h3 className="text-lg font-semibold">{instructor.name}</h3>
                 <p className="text-gray-500 text-xs">{instructor.title}</p>
@@ -83,7 +82,6 @@ const TopInstructors = () => {
           <span className="text-red-500 font-medium cursor-pointer">Become Instructor →</span>
         </p>
       </div>
-          </div>
     </section>
   );
 };

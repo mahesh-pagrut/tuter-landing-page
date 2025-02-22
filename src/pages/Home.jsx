@@ -49,11 +49,11 @@ export default function Home() {
         <FeaturedCourses />
       </div>
 
-      <div className="px-30">
+      <div className="px-36 bg-[#F5F7FA] pb-70 relative">
         <BecomeInstructor/>
       </div>
 
-      <div className="px-30">
+      <div className="px-30 -mt-70 relative">
         <TopInstructors/>
       </div>
 
