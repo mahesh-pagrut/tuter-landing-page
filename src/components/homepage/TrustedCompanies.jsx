@@ -22,7 +22,7 @@ const TrustedCompanies = () => {
   ];
 
   return (
-    <section className="bg-[#FFFFFF] py-5">
+    <section className="bg-[#FFFFFF] py-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         {/* Left Section */}
         <div className="md:w-1/3 text-center md:text-left mb-8 md:mb-0">

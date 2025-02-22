@@ -6,6 +6,7 @@ import FeaturedCourses from "../components/homepage/FeaturedCourses";
 import TrustedCompanies from "../components/homepage/TrustedCompanies";
 import TopInstructors from "../components/homepage/TopInstructors";
 import BecomeInstructor from "../components/homepage/becomeInstructor";
+import RecentCourses from "../components/homepage/RecentCourses";
 
 export default function Home() {
   return (
@@ -48,10 +49,14 @@ export default function Home() {
       <div className="px-30 -mt-70 relative">
         <FeaturedCourses />
       </div>
+      <div className="px-36">
+      <RecentCourses/>
+      </div>
 
       <div className="px-36 bg-[#F5F7FA] pb-70 relative">
         <BecomeInstructor/>
       </div>
+
 
       <div className="px-30 -mt-70 relative">
         <TopInstructors/>

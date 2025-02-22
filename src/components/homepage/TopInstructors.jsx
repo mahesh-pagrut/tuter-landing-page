@@ -1,6 +1,6 @@
 import React from "react";
 
-import instructor from "/assets/instructore.png"
+
 import devon from "/assets/instructors/devon.png";
 import darrell from "/assets/instructors/darrell.png";
 import jane from "/assets/instructors/jane.png";
